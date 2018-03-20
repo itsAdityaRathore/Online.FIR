@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {	
+		apiKey: "AIzaSyBnscVF2B7Ls3SHpG9xTTJiE65pbV_7Y0s",
+		authDomain: "onlinefir-f357e.firebaseapp.com",
+		databaseURL: "https://onlinefir-f357e.firebaseio.com",
+		projectId: "onlinefir-f357e",
+		storageBucket: "onlinefir-f357e.appspot.com",
+		messagingSenderId: "629129808872"
+	  };
+	  firebase.initializeApp(config);
+	  
+	 
+	</script>
+</head>	
+		
+	<body>
+			<script>
+			
+			function a(){
+				var id = document.getElementById("id");
+			
+				//var database = firebase.database().ref("Report").child("Accident");
+				var database = firebase.database().ref("Report/Accident/"+id+"");
+				document.write(database);
+				database.once("child_added", function(snapshot){
+				
+				console.log(snapshot.child("fname").val());
+					
+				var nameV = snapshot.child("name").val();
+				var nameV1 = snapshot.child("fname").val();
+				document.write("</br>")
+				document.write(nameV);
+				document.write("</br>");
+				document.write(nameV1);
+				
+				
+			});
+					
+				return false;
+			}
+		</script>
+
+	
+	<form onsubmit="a()">	
+	
+			<br><br>
+		enter id :	<input type="text" id="id" >
+			<button type="submit">Submit</button>
+		
+	</form>
+		
+		
+		
+		
+		
+	</body>
+</html>

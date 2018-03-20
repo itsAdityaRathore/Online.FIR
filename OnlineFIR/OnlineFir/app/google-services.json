@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629129808872",
+    "firebase_url": "https://onlinefir-f357e.firebaseio.com",
+    "project_id": "onlinefir-f357e",
+    "storage_bucket": "onlinefir-f357e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629129808872:android:a76c81dafae66ca6",
+        "android_client_info": {
+          "package_name": "com.example.onlineFir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629129808872-j0c5rqnonl991nhdmf2899jh75grmqia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlineFir",
+            "certificate_hash": "d125e4efa7d811c36f9f4c93926349d02884496e"
+          }
+        },
+        {
+          "client_id": "629129808872-3ssm5ka5pgptmsulc1q86skr5c0rmj7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY8yC9MjNr-uVhggFs9L1-SMe_mA33TcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629129808872-3ssm5ka5pgptmsulc1q86skr5c0rmj7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.onlineFir.Last">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/thankyou"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/police" />
+
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="Thank You..!!"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:paddingTop="10dp"
+            android:layout_below="@id/thankyou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="Your FIR Registered Successfully"
+            android:textSize="21dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:paddingTop="20dp"
+            android:layout_below="@id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="We will contact you soon"
+            android:textSize="21dp"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+</RelativeLayout>

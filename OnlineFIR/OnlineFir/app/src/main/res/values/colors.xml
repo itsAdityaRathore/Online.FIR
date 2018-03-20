@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0f82d2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="btnNext">#14cc00</color>
+    <color name="btnPrev">#f7ef00</color>
+    <color name="overlayBackground">#7f333639</color>
+</resources>
